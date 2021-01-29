@@ -2,7 +2,7 @@ import bs4
 import requests
 import lxml
 
-link="https://timesofindia.indiatimes.com/business"
+link="https://timesofindia.indiatimes.com/business/"
 try:
     listoflinks=[]
     source=requests.get(link)
