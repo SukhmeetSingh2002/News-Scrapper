@@ -2,7 +2,7 @@ import bs4
 import requests
 import lxml
 
-link="https://timesofindia.indiatimes.com/world"
+link = "https://timesofindia.indiatimes.com/world"
 try:
     listoflinks = []
     source = requests.get(link)
@@ -12,8 +12,8 @@ try:
         for x in span:
             y = x.find('a').get('href')
             listoflinks.append(y)
-    except:
-        print("Error")
+    except Exception as e:
+        print(e)
 
     for x in listoflinks:
         if x[0] == "/" and x[1] == "w":
@@ -31,9 +31,23 @@ try:
                 z = x +y
                 if ":" in z:
                     z=z.replace(":","")
+                if "/" in z:
+                    z=z.replace("/","")
+                if "*" in z:
+                    z=z.replace("*","")
+                if "?" in z:
+                    z=z.replace("?","")
+                if "<" in z:
+                    z=z.replace("<","")
+                if ">" in z:
+                    z=z.replace(">","")
+                if "|" in z:
+                    z=z.replace("|","")
+                if '"' in z:
+                    z=z.replace('"',"")
                 # if "Had no" in z:
                 #     print(urll)
-                f=open(z,"w")
+                f=open(z,"w",encoding='utf-8')
                 f.write(title[0].get_text())
                 f.write("\n")
                 f.write("\n")
@@ -58,9 +72,9 @@ try:
                     f.write("--------------------------------------------------------------------------------------------------")
                     f.write("\n")
                     f.write("\n")
-            except:
-                print("ERROR")
+            except Exception as e:
+                print(e)
             finally:
                 f.close()
-except:
-    print("ERROR")
+except Exception as e:
+    print(e)

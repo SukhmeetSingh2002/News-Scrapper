@@ -1,8 +1,0 @@
-RBI appoints external IT firm for special audit of HDFC Bank's IT infra
-
-IANS |  Feb 2, 2021, 15:58  IST
-
-MUMBAI: The Reserve Bank of India (RBI) has appointed an external professional IT firm to carry out a special audit of the entire IT infrastructure of HDFC Bank. The development follows recent outage in the bank's internet banking and payment system on November 21, 2020 due to a power failure in the primary data centre. "RBI has appointed an external professional IT firm for carrying out a special audit of the entire IT infrastructure of the Bank under Section 30 (1-B) of the Banking Regulation Act, 1949 (the Act), at the cost of the Bank under Section 30 (1-C) of the Act," HDFC Bank said in a regulatory filing. It said that the bank will accordingly extend its cooperation to the external professional IT firm so appointed by RBI for conducting the special IT audit. Last December, the RBI asked HDFC Bank to temporarily stop all launches of the digital business generating activities and sourcing of new credit card customers, after outages in the bank's online facilities or payment utilities occurred over the past 2 years, including the incident in the internet banking and payment system on November 21, due to a power failure in the primary data centre. 
-
---------------------------------------------------------------------------------------------------
-
